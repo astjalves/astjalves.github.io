@@ -20,5 +20,12 @@ Plot:
             'bar.json'
           );
         </script>
+        <div id="line"></div>
+        <script>
+          vegaEmbed(
+            '#line',
+            'line.json'
+          );
+        </script>
       </body>
 </html>
